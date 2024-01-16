@@ -355,11 +355,15 @@ h1.text-center.merika {
 
 /* discount section*/
 .discount-price {
-    background: url("images/banner1.png");
+    background: url("images/kuala-lumpur-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
     border-radius: 10px;
+}
+
+.Taiwan-tour {
+    background: url("images/banner1.png");
 }
 
 /* offer pakegs */
