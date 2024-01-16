@@ -1,3 +1,166 @@
+@media screen and (min-width:600px) and (max-width:996px) {
+    body {
+        margin: 0 10px;
+    }
+
+    .about-section-images,
+    .destination-section-place-div-1,
+    .destination-section-place-div-2,
+    .destination-section-place-div-3,
+    .beautiful-place-section,
+    .Newsletter-section {
+        flex-direction: column;
+    }
+
+    #search-district,
+    #search-place,
+    .search-input,
+    .find-btn,
+    .about-section-images img,
+    iframe,
+    .beautiful-place-section-video,
+    .left-form,
+    .newslatter-section-right-img img {
+        width: 100%;
+        margin: 0;
+    }
+
+    button#subscribe-btn,
+    input#name,
+    input#eamil {
+        width: 100%;
+
+    }
+
+    .navigation-bar {
+        display: block;
+    }
+
+    .nav-ul li {
+        display: none;
+    }
+
+    /* about section */
+
+    .about-section-text,
+    .popular-tour-section-right-side-img img,
+    .discription-text {
+        width: 100%;
+    }
+
+    .popular-tour-section {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .banner-content-center {
+        width: 100% !important;
+        margin: 16px auto;
+    }
+
+    .place-searcing-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 80%;
+        margin: 50px 0;
+    }
+
+    h1.banner-title {
+        font-size: 25px;
+    }
+
+
+    .banner-section {
+        border-radius: 10px;
+    }
+
+    .popular-tour-section-left-side-text h2 {
+        font-size: 25px;
+        margin: -19px 0;
+    }
+
+    .popular-tour-section-left-side-text {
+        width: 90%;
+    }
+
+    /*  */
+    .destination-section-place-div-1 img,
+    .destination-section-place-div-2 img,
+    .destination-section-place-div-3 img {
+
+        height: 300px;
+    }
+
+    /* service section */
+    .service-pakeges {
+        grid-template-columns: 1fr;
+
+    }
+
+    .card-3 {
+        background: #fffbf7;
+        transform: none;
+    }
+
+    .discription-text h2 {
+        font-size: 30px;
+    }
+
+    /* offer card */
+    .offer-date-rate {
+        width: 80%;
+        height: 355px;
+        transform: translate(32px, 88px);
+        line-height: 47px;
+        float: none;
+    }
+
+    .offer-date-rate.price-between {
+        float: none;
+        transform: translate(32px, 48px);
+    }
+
+    p.p {
+        line-height: 27px;
+    }
+
+    ul.price li {
+        display: inline-block;
+        padding-right: 8px;
+        font-size: 14px;
+    }
+
+    .display.text-center {
+        left: 69%;
+        padding: 19px 28px;
+        top: 68%;
+    }
+
+    .display.text-center h1 {
+        font-size: 15px;
+    }
+
+    .display.text-center p {
+        font-size: 10px;
+    }
+
+    img#malisiya,
+    img.merika,
+    img#jamacug,
+    img#bangladesh,
+    img#bandarban {
+        text-align: center;
+        width: 570px;
+        /* width: 800px; */
+
+    }
+
+}
+
+/* max-width:600px */
+
 @media screen and (max-width:600px) {
     body {
         margin: 0 10px;
@@ -151,73 +314,17 @@
         font-size: 10px;
     }
 
-    /* .discount-price-between {
-        width: 80%;
-        height: 350px;
-        transform: translate(42px, 88px);
-        line-height: 28px;
-        float: none;
-    } */
 
-    /* @media screen and (min-width:600px) and (max-width:996px) {
-        body {
-            margin: 0 10px;
-        }
-
-        .nav-content {
-            flex-direction: column;
-
-        }
-
-        .popular-tour-section {
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-
-        .banner-content-center {
-            width: 100% !important;
-            margin: 16px auto;
-        }
-
-        .place-searcing-data {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            width: 80%;
-            margin: 50px 0;
-        }
-
-        h1.banner-title {
-            font-size: 25px;
-        }
-
-        #search-district,
-        #search-place,
-        .search-input,
-        .find-btn {
-            width: 100%;
-            margin: 0;
-        }
-
-        .banner-section {
-            border-radius: 10px;
-        }
-
-        .popular-tour-section-left-side-text {
-            width: 100%;
-        }
-
-        .popular-tour-section-left-side-text {
-            width: 100%;
-
-        }
-
-        .popular-tour-section {
-            align-items: normal;
-        } */
-
-
-
+    /* images */
+    img#jamacug,
+    img#malisiya,
+    img#indonesia,
+    img#maldiv-img,
+    img.merika,
+    img#bandarban,
+    img#bangladesh {
+        height: 100%;
+        width: 100%;
+    }
 
 }
