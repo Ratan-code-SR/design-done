@@ -153,7 +153,6 @@
     img#bandarban {
         text-align: center;
         width: 570px;
-        /* width: 800px; */
 
     }
 
@@ -256,9 +255,7 @@
         height: 300px;
     }
 
-    /* .important {
-        width: 400px;
-    } */
+
 
     /* service section */
     .service-pakeges {

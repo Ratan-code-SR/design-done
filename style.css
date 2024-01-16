@@ -116,7 +116,7 @@ a.li-color {
 /* navigation bar */
 .navigation-bar {
     font-size: 30px;
-    color: black;
+    color: var(--dark-color);
     line-height: 80px;
     margin: 3px 15px;
     cursor: pointer;
@@ -145,12 +145,12 @@ a.li-color {
 }
 
 h1.banner-title {
-    color: white;
+    color: var(--white-color);
     font-size: 50px;
 }
 
 p.banner-discription.p {
-    color: white;
+    color: var(--white-color);
     margin-top: 20px;
 }
 
@@ -264,8 +264,6 @@ h1.text-center.merika {
 }
 
 
-
-
 /* img */
 /* destination-section  top*/
 .flex-content {
@@ -293,7 +291,6 @@ h1.text-center.merika {
 
 
 }
-
 
 .destination-section-place-div-1 img,
 .destination-section-place-div-2 img,
@@ -324,7 +321,7 @@ img#malisiya {
     position: absolute;
     top: 44%;
     left: 39%;
-    color: white;
+    color: var(--white-color);
 }
 
 /* service pakeges section */
@@ -362,7 +359,7 @@ img#malisiya {
 .card-1 h3,
 .card-2 h3,
 .card-3 h3 {
-    color: black;
+    color: var(--dark-color);
     font-size: 24px;
     font-weight: 800;
 }
@@ -388,7 +385,7 @@ ul.price li {
 }
 
 span.color-red {
-    color: red;
+    color: var(--orange-color);
     margin-right: 11px;
 }
 
@@ -513,7 +510,7 @@ button#subscribe-btn {
 .footer-ul li a {
     padding: 0 15px;
     font-size: 25px;
-    color: black;
+    color: var(--dark-color);
 }
 
 .footer-section {
