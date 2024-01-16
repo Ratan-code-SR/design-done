@@ -248,13 +248,20 @@ ul.popular-section-ul {
 }
 
 .popular-tour-section-left-side-text h2 {
-    margin: 20px 0;
+    margin: -9px 0;
 }
 
 .popular-tour-section-left-side-text {
     width: 500px;
 }
 
+h1.text-center.jam {
+    margin-left: -34px;
+}
+
+h1.text-center.merika {
+    margin-left: -30px;
+}
 
 
 
