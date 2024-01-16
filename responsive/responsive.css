@@ -137,6 +137,19 @@
     }
 
 
+    .display.text-center {
+        left: 61%;
+        padding: 6px 2px;
+        top: 60%;
+    }
+
+    .display.text-center h1 {
+        font-size: 15px;
+    }
+
+    .display.text-center p {
+        font-size: 10px;
+    }
 
     /* .discount-price-between {
         width: 80%;
